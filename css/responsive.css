@@ -1,4 +1,4 @@
-@media (max-width:760px) {
+    @media (max-width:760px) {
     .navbar-links {
         display: none;
     }
@@ -322,6 +322,8 @@
         display: none;
     }
     .raw3 {
-        display: none;
+        display: none !important;
     }
-}
+    .footer-container {
+        padding: 0px;
+    }
