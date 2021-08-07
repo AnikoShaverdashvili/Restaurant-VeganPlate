@@ -187,6 +187,8 @@
         }
         h3 {
             text-align: center;
+            margin-top: 10px;
+            margin-top: 10px;
         }
     }
     
@@ -214,7 +216,6 @@
         }
         .par {
             font-size: 10px;
-            margin-top: 5px;
         }
     }
     
@@ -302,7 +303,6 @@
         }
         .right-container {
             flex-direction: column;
-            justify-content: center;
         }
         .footer-h3 {
             font-size: 20px;
