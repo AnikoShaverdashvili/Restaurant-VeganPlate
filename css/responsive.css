@@ -96,7 +96,7 @@
         }
         .about-us-wraper {
             background-image: none;
-            background-color: #e9e3b3;
+            background-color: beige;
             height: auto;
         }
         .interior-image-container {
@@ -124,9 +124,12 @@
         .about-us-title {
             font-size: 35px;
         }
+        .menu-span {
+            font-size: 23px;
+            text-align: center;
+        }
     }
-    
-    @media(max-width:330px) {
+    /* @media(max-width:330px) {
         .second-p {
             display: none;
         }
@@ -138,7 +141,7 @@
             max-width: 215px;
             width: 100%;
         }
-    }
+    } */
     
     @media (max-width: 450px) {
         .interior-image {
@@ -182,13 +185,11 @@
         .left-block {
             max-width: 610px !important;
             justify-content: center;
-            align-items: center;
             width: 100%;
         }
         h3 {
             text-align: center;
-            margin-top: 10px;
-            margin-top: 10px;
+            padding-top: 10px;
         }
     }
     
