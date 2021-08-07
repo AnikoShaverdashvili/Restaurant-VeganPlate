@@ -129,19 +129,6 @@
             text-align: center;
         }
     }
-    /* @media(max-width:330px) {
-        .second-p {
-            display: none;
-        }
-        .interior-image {
-            max-width: 215px;
-            width: 100%;
-        }
-        .interior-image-container {
-            max-width: 215px;
-            width: 100%;
-        }
-    } */
     
     @media (max-width: 450px) {
         .interior-image {
@@ -331,3 +318,5 @@
         }
     }
     /* end footer responsive */
+    
+    background-image: url(../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
