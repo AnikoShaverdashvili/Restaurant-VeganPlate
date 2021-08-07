@@ -567,7 +567,8 @@
     }
     
     .paragraph {
-        width: 260px;
+        max-width: 260px;
+        width: 100%;
         font-family: 'Roboto';
         color: #8d8d8d;
         font-size: 18px;
