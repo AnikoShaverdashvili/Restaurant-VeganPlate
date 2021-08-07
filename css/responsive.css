@@ -120,6 +120,9 @@
                                         justify-content: center;
                                         align-items: center;
                                     }
+                                    .about-us-title {
+                                        font-size: 35px;
+                                    }
                                 }
                                 /* menu responsive */
                                 
@@ -236,5 +239,19 @@
                                         justify-content: center;
                                         align-items: center;
                                         display: flex;
+                                    }
+                                }
+                                
+                                @media(max-width:330px) {
+                                    .second-p {
+                                        display: none;
+                                    }
+                                    .interior-image {
+                                        max-width: 215px;
+                                        width: 100%;
+                                    }
+                                    .interior-image-container {
+                                        max-width: 215px;
+                                        width: 100%;
                                     }
                                 }
