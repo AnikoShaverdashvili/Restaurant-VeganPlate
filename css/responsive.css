@@ -267,7 +267,7 @@
     @media (max-width: 450px) {
         .left-container {
             display: flex;
-            align-items: space-between;
+            justify-content: space-between;
         }
         .footer-ul {
             display: flex !important;
