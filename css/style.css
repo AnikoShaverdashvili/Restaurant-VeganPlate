@@ -588,6 +588,10 @@
         margin-bottom: 10px;
     }
     
+    .no-cap {
+        text-transform: lowercase !important;
+    }
+    
     .links1 a,
     .links2 a,
     .links3 a {

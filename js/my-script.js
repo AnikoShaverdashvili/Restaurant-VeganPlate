@@ -33,12 +33,12 @@ btn_left.addEventListener("click", function() { // კერძების მ�
 })
 
 
-var btn_submit = document.getElementById("customerOrder");
-btn_submit.addEventListener("click", function() {
-    var res = document.getElementById("form-responce");
-    if (res.innerHTML === "") {
-        res.innerHTML = "Form Submited <i class='fa fa-check' aria-hidden='true'></i>";
-    } else {
-        res.innerHTML = "";
-    }
-})
+// var btn_submit = document.getElementById("customerOrder");
+// btn_submit.addEventListener("click", function() {
+//     var res = document.getElementById("form-responce");
+//     if (res.innerHTML === "") {
+//         res.innerHTML = "Form Submited <i class='fa fa-check' aria-hidden='true'></i>";
+//     } else {
+//         res.innerHTML = "";
+//     }
+// })
