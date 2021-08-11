@@ -77,6 +77,10 @@
         .text-container {
             margin-top: 45px;
         }
+        .menu-span {
+            font-size: 23px;
+            text-align: center;
+        }
     }
     
     @media (max-width:1154px) {
@@ -123,10 +127,6 @@
         }
         .about-us-title {
             font-size: 35px;
-        }
-        .menu-span {
-            font-size: 23px;
-            text-align: center;
         }
     }
     
@@ -318,5 +318,3 @@
         }
     }
     /* end footer responsive */
-    
-    background-image: url(../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
