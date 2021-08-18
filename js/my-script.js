@@ -60,9 +60,6 @@ function getPersonal(page) {
         .then(function(responseData) {
             var sheff = responseData.data[3];
             var cook = responseData.data[4];
-
-            console.log(sheff);
-
             var sheff_full_name = sheff.first_name + " " + sheff.last_name;
             var sheff_avatar = sheff.avatar;
             var sheff_mail = sheff.email;
