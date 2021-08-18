@@ -136,7 +136,8 @@
     .interior-image-container {
         margin-top: 0px;
         display: block;
-        width: 375px;
+        max-width: 375px;
+        width: 100%;
         margin-top: 19px;
         margin-left: 19px;
     }
@@ -199,6 +200,16 @@
     }
 }
 
+@media(max-width:392px) {
+    .interior-image-container {
+        margin-top: 19px;
+        margin-left: 0px;
+    }
+    .interior-image {
+        width: 100%;
+    }
+}
+
 
 /* menu responsive */
 
@@ -251,6 +262,9 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+    }
+    .title-container {
+        margin-right: 0px;
     }
 }
 
@@ -412,3 +426,15 @@
 
 
 /* end footer responsive */
+
+
+/* start our team */
+
+@media (max-width: 400px) {
+    #sheff {
+        margin-bottom: 25px;
+    }
+}
+
+
+/* end our team */

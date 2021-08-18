@@ -42,3 +42,58 @@ btn_left.addEventListener("click", function() { // კერძების მ�
 //         res.innerHTML = "";
 //     }
 // })
+
+
+
+
+/* personal data start */
+function getPersonal(page) {
+    fetch('https://reqres.in/api/users?page=1', {
+            method: 'GET'
+        })
+        .then(function(response) {
+            if (response.status !== 200) {
+                throw response.status;
+            }
+            return response.json();
+        })
+        .then(function(responseData) {
+            var sheff = responseData.data[3];
+            var cook = responseData.data[4];
+
+            console.log(sheff);
+
+            var sheff_full_name = sheff.first_name + " " + sheff.last_name;
+            var sheff_avatar = sheff.avatar;
+            var sheff_mail = sheff.email;
+            document.getElementById('sheff_full_name').append(sheff_full_name);
+            document.getElementById("img-sheff").src = sheff_avatar;
+            document.getElementById('sheff_mail').append(sheff_mail);
+            document.getElementById('sheff_mail').href = "mailto:" + sheff_mail;
+
+            var cook_full_name = cook.first_name + " " + cook.last_name;
+            var cook_avatar = cook.avatar;
+            var cook_mail = cook.email;
+            document.getElementById('cook_full_name').append(cook_full_name);
+            document.getElementById("img-cook").src = cook_avatar;
+            document.getElementById('cook_mail').append(cook_mail);
+            document.getElementById('cook_mail').href = "mailto:" + cook_mail;
+        })
+        .catch(function(error) {
+            if (error == 404) {
+                let p = document.createElement('p');
+                p.textContent = 'page not found';
+                p.classList.add('error-text');
+                document.getElementById('api').appendChild(p);
+            } else {
+                let p = document.createElement('p');
+                p.textContent = 'server error';
+                p.classList.add('error-text');
+                document.getElementById('api').appendChild(p);
+            }
+            console.log(error);
+        })
+}
+
+getPersonal();
+/* personal data end */
