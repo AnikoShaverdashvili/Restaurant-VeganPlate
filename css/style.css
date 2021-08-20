@@ -303,6 +303,7 @@ body {
     font-size: 28px;
     text-transform: uppercase;
     font-family: 'Lato';
+    color: #8d8d8d;
 }
 
 .h3 {
@@ -790,11 +791,58 @@ h4 {
 /* menu slider */
 
 
-/* form */
+/* personal section start */
 
-#form-responce {
-    color: #6ee00a;
+.personal_section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section-staff {
+    background: beige;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#sheff {
+    display: grid;
+}
+
+#cook {
+    display: grid;
+}
+
+#img-sheff,
+#img-cook {
+    height: 200px;
+}
+
+.person_info {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+#cook_full_name,
+#sheff_full_name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cook_mail,
+#sheff_mail {
+    color: #212529;
+}
+
+.our-team {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 
-/* form */
+/* personal section end */
