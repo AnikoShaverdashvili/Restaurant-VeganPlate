@@ -563,7 +563,7 @@ input,
 textarea {
     border: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
+    border-radius: 3px;
     background: #f8f4e5;
     padding-left: 5px;
     outline: none;
@@ -572,12 +572,11 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border: 1px solid #6bd4b1;
+    border: 3px solid goldenrod;
 }
 
 button {
     display: block;
-    float: right;
     line-height: 24pt;
     padding: 0 20px;
     border: none;
@@ -587,7 +586,7 @@ button {
     -webkit-transition: 0.2s all ease-in-out;
     -o-transition: 0.2s all ease-in-out;
     transition: 0.2s all ease-in-out;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
     outline: none;
     font-family: 'Roboto';
 }
