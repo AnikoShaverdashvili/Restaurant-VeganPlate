@@ -10,13 +10,6 @@ body {
 }
 
 
-/* slider */
-
-.work .text h2 {
-    text-align: center;
-}
-
-
 /* start header */
 
 .my-navbar {
@@ -805,60 +798,3 @@ h4 {
 
 
 /* form */
-
-
-/* personal section start */
-
-.personal_section {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.section-staff {
-    background: beige;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-#sheff {
-    display: grid;
-}
-
-#cook {
-    display: grid;
-}
-
-#img-sheff,
-#img-cook {
-    height: 200px;
-}
-
-.person_info {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Roboto';
-}
-
-#cook_full_name,
-#sheff_full_name {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#cook_mail,
-#sheff_mail {
-    color: #212529;
-}
-
-.our-team {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto';
-    font-size: 25px;
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-
-/* personal section end */
