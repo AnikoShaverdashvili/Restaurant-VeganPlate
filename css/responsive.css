@@ -74,30 +74,12 @@
 
 /* slider responsive */
 
-@media (max-width:1124px) {
+@media (max-width:750px) {
     .slider-image {
         height: 450px !important;
     }
-}
-
-@media (max-width:950px) {
-    .slider-image {
-        height: 400px !important;
-    }
-}
-
-@media (max-width:750px) {
-    .slider-image {
-        height: 350px !important;
-    }
     .work .text h2 {
         font-size: 25px;
-    }
-}
-
-@media (max-width:550px) {
-    .slider-image {
-        height: 250px !important;
     }
 }
 
