@@ -378,6 +378,7 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     width: 270px;
+    border-radius: 33% 67% 32% 68% / 70% 55% 45% 30%;
 }
 
 .middle {
